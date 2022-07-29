@@ -45,10 +45,10 @@
       "address": "kigali-Rwanda"
     },
     {
-      "id": 3,
-      "name": "Radson Blue",
+      "name": "Radson Blue 10",
+      "address": "kigali-Rwanda",
       "contact": "0786621407",
-      "address": "kigali-Rwanda"
+      "id": 3
     },
     {
       "name": "Barba",
@@ -57,7 +57,7 @@
       "id": 4
     },
     {
-      "name": "Kabarondo hotel",
+      "name": "Kabarondo hotel 10",
       "address": "Kayonza",
       "contact": "0374746363r",
       "id": 5
