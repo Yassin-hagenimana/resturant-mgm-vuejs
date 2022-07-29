@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "name": "Hagenimana Yassin",
+      "email": "hyassin509@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Yassin",
+      "email": "hyassin09@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Draxler",
+      "email": "hyassin0@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}
