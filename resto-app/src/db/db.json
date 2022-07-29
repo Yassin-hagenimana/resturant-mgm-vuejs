@@ -31,24 +31,36 @@
       "id": 5
     }
   ],
-  "restaurants":[
+  "restaurants": [
     {
-      "id":1,
-      "name":"Marriot",
-      "contact":"0786621407",
-      "address":"kigali-Rwanda"
+      "id": 1,
+      "name": "Marriot",
+      "contact": "0786621407",
+      "address": "kigali-Rwanda"
     },
     {
-      "id":2,
-      "name":"Nobreza",
-      "contact":"0786621407",
-      "address":"kigali-Rwanda"
+      "id": 2,
+      "name": "Nobreza",
+      "contact": "0786621407",
+      "address": "kigali-Rwanda"
     },
     {
-      "id":3,
-      "name":"Radson Blue",
-      "contact":"0786621407",
-      "address":"kigali-Rwanda"
+      "id": 3,
+      "name": "Radson Blue",
+      "contact": "0786621407",
+      "address": "kigali-Rwanda"
+    },
+    {
+      "name": "Barba",
+      "address": "Kenya",
+      "contact": "0984888",
+      "id": 4
+    },
+    {
+      "name": "Kabarondo hotel",
+      "address": "Kayonza",
+      "contact": "0374746363r",
+      "id": 5
     }
   ]
 }

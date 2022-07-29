@@ -13,6 +13,7 @@
 
 <script>
 import Header from "../components/Header.vue"
+import axios from "axios"
 export default {
   name: "Add",
   components:{
@@ -29,7 +30,15 @@ export default {
   },
   methods: {
   async addRestaurant(){
-  console.warn(this.Restaurant.name)
+  const result=await axios.post("http://localhost:3000/restaurants",{
+  name:this.Restaurant.name,
+  address:this.Restaurant.address,
+  contact:this.Restaurant.contact
+  });
+
+  if(result.status==201){
+  this.$router.push({name:"Home"})
+  }
   }
   },
   mounted(){
