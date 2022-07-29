@@ -17,6 +17,18 @@
       "email": "hyassin0@gmail.com",
       "password": "123456",
       "id": 3
+    },
+    {
+      "name": "Yassin",
+      "email": "pa@gmail.com",
+      "password": "yassin",
+      "id": 4
+    },
+    {
+      "name": "Kabarondo",
+      "email": "kndo@gmail.com",
+      "password": "kndo",
+      "id": 5
     }
   ]
 }

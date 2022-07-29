@@ -4,18 +4,41 @@
         <h1>Signup form</h1>
 
      <div class="register">
-     <input type="text" placeholder="Enter Names"/>
-     <input type="text" placeholder="Enter Email"/>
-     <input type="text" placeholder="Enter Password"/>
+     <input type="text" placeholder="Enter Names" v-model="name"/>
+     <input type="email" placeholder="Enter Email" v-model="email"/>
+     <input type="password" placeholder="Enter Password" v-model="password"/>
 
-     <button type="submit">Sign up</button>
+     <button v-on:click="signUp">Sign up</button>
     
     </div>
     </div>
 </template>
 <script>
+import axios from "axios"
 export default {
-    
+    name:'Signup',
+    data(){
+        return{
+            name:"",
+            email:"",
+            password:""
+        }
+    },
+    methods:{
+        async signUp(){
+            let result= await axios.post("http://localhost:3000/user",{
+                name:this.name,
+                email:this.email,
+                password:this.password
+            });
+            console.warn(result)
+
+            if(result.status==201){
+                localStorage.setItem("user-info",JSON.stringify(result.data))
+                this.$router.push({name:"Home"})
+            }
+        }
+    }
 }
 </script>
 <style>
