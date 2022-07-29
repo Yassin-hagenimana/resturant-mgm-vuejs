@@ -30,5 +30,25 @@
       "password": "kndo",
       "id": 5
     }
+  ],
+  "restaurants":[
+    {
+      "id":1,
+      "name":"Marriot",
+      "contact":"0786621407",
+      "address":"kigali-Rwanda"
+    },
+    {
+      "id":2,
+      "name":"Nobreza",
+      "contact":"0786621407",
+      "address":"kigali-Rwanda"
+    },
+    {
+      "id":3,
+      "name":"Radson Blue",
+      "contact":"0786621407",
+      "address":"kigali-Rwanda"
+    }
   ]
 }
